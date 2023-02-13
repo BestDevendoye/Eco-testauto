@@ -1,0 +1,3 @@
+*** Variables ***
+
+${message}      test auto
