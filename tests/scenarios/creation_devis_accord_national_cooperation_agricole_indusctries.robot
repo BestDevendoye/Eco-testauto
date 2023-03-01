@@ -28,7 +28,7 @@ Formulaire Devis-Accès-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES 
     Cliquer sur l'offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
     Renseigner la date d'entretien
 
- Formulaire Devis-Entreprise-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
+Formulaire Devis-Entreprise-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
     Log To Console    Step-03-Remplissage des champs Entreprise
     Renseigner le numéro du SIRET    ${num_siret}
     Renseigner la couverture annuelle    ${couverture_annuelle}

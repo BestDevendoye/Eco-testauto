@@ -28,7 +28,7 @@ Formulaire Devis-Accès-Offre CCN52
     Cliquer sur l'offre CCN52
     Renseigner la date d'entretien
 
- Formulaire Devis-Entreprise-Offre CCN52
+Formulaire Devis-Entreprise-Offre CCN52
     Set Selenium Speed    1s
     Renseigner le numéro du SIRET    ${num_siret}
     Renseigner la couverture annuelle    ${couverture_annuelle}

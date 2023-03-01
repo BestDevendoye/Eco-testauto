@@ -26,7 +26,7 @@ Formulaire Devis-Accès-Offre SDLM prévoyance
     Cliquer sur l'offre SDLM prévoyance
     Renseigner la date d'entretien
 
- Formulaire Devis-Entreprise-Offre SDLM prévoyance
+Formulaire Devis-Entreprise-Offre SDLM prévoyance
     Renseigner le numéro du SIRET    ${num_siret}
     Renseigner la couverture annuelle    ${couverture_annuelle}
     Renseigner la convention collective    ${convention_collective}

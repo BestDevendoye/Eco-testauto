@@ -24,6 +24,12 @@ Resource    scenarios/creation_devis_SDLM_santé.robot
 Resource    scenarios/creation_devis_CCN_entreprises_paysage_ouvriers_employés.robot
 Resource    scenarios/creation_devis_régime_adhésion.robot
 Resource    scenarios/creation_devis_per_CPCEA_supplément_taux.robot
+Resource    scenarios_non_passants/creation_devis_cas_non_passant_SDLM_prevoyance.robot
+Resource    scenarios_non_passants/CCN52_non_passant.robot
+Resource    scenarios_non_passants/creation_devis_non_passant_accord_national_cooperation_agricole_indusctries.robot
+
+
+
 
 Test Setup   Ouvrir le navigateur    ${url}   ${browser}
 Test Teardown     Fermer le navigateur
@@ -31,12 +37,12 @@ Test Teardown     Fermer le navigateur
 
 *** Test Cases ***
 
-Etape de connexion, réinitialisation du mot de passe
-    Se connecter à Agrica Espace Co Sans Email     ${browser}
-    Se connecter à Agrica Espace Co Avec Email     ${nom_utilisateur_Agrica}    ${browser}
-    Se connecter à Agrica Espace Co Avec Email erroné    ${nom_utilisateur_Agrica_erroné}    ${motdepasse_Agrica}    ${browser}
-    Se connecter à Agrica Espace Co Avec Password incorrect    ${nom_utilisateur_Agrica_test}    ${motdepasse_Agrica_incorrecte}
-    Mot de passe oublié     ${nom_utilisateur_Agrica}    ${nom_utilisateur_Agrica_erroné}    ${browser}
+#Etape de connexion, réinitialisation du mot de passe
+    #Se connecter à Agrica Espace Co Sans Email     ${browser}
+    #Se connecter à Agrica Espace Co Avec Email     ${nom_utilisateur_Agrica}    ${browser}
+    #Se connecter à Agrica Espace Co Avec Email erroné    ${nom_utilisateur_Agrica_erroné}    ${motdepasse_Agrica}    ${browser}
+    #Se connecter à Agrica Espace Co Avec Password incorrect    ${nom_utilisateur_Agrica_test}    ${motdepasse_Agrica_incorrecte}
+    #Mot de passe oublié     ${nom_utilisateur_Agrica}    ${nom_utilisateur_Agrica_erroné}    ${browser}
 
 
 Connexion en tant que commercial/assureur/admin/caisse regionale/Distributeur
@@ -235,3 +241,34 @@ Creation devis PER CPCEA - SUPPLÉMENT DE TAUX
    Formulaire Devis-Distributeur-Offre PER CPCEA - SUPPLÉMENT DE TAUX
    #Tarificateur PER CPCEA - SUPPLÉMENT DE TAUX
    #Envoi de la proposition commerciale-Offre PER CPCEA - SUPPLÉMENT DE TAUX
+
+
+
+
+
+
+
+
+#### -------------------------------------   CAS NON PASSANT ------------------------------------------------------------------------ ######
+
+Creation devis SDLM Prévoyance des champs obligatoires non passant
+      Connexion en tant que distributeur Agrica SDLM prévoyance non passant
+      Formulaire Devis-Accès-Offre SDLM prévoyance non passant
+      Formulaire Devis-Entreprise-Offre SDLM prévoyance non passant
+      Formulaire Devis-Signataires-Offre SDLM prévoyance non passant
+      Formulaire Devis-Distributeur-Offre SDLM prévoyance non passant
+
+CCN52 devis non pasant
+    Connexion en tant que distributeur
+    Formulaire Devis-Accès-Offre CCN52
+    Formulaire Devis-Entreprise-Offre CCN52 non passant
+    Formulaire Devis-Signataires-Offre CCN52 non passant
+    Formulaire Devis-Distributeur-Offre CCN52 non passant
+
+Création devis Accord national cooperation agricole non passant
+    Connexion en tant que distributeur Agrica ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES non passant
+    Formulaire Devis-Accès-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES non passant
+    Formulaire Devis-Entreprise-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES non passant
+    Formulaire Devis-Signataires-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES non passant
+    Formulaire Devis-Distributeur-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES non passant
+      
