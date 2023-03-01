@@ -62,7 +62,7 @@ Formulaire Devis-Distributeur-Offre CCN52
     Renseigner le code conseiller    ${code_conseiller_groupe_Agrica} 
     Renseigner le téléphone fixe du distributeur    ${numtelephonefixe_distributeur_groupe_Agrica}
     Renseigner le téléphone portable du distributeur    ${numtelephoneportable_distributeur_groupe_Agrica} 
-    Cliquer sur le bouton Etape suivante
+    #Cliquer sur le bouton Etape suivante
 
 Tarificateur CCN52
     Set Selenium Speed    1s

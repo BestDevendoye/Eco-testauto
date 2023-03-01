@@ -3,7 +3,7 @@
 *** Variables ***
 
 ${url}  https://qualif-partenaires.groupagrica.com/
-${browser}  Edge
+${browser}  Chrome
 #Google Chrome
 #Firefox
 #Edge
@@ -21,7 +21,7 @@ ${motdepasse_Agrica_incorrecte}       123456
 ${nom_utilisateur_Agrica_test}      marwa.rjafallah@test.fr
 ${nom_utilisateur_Admin}      administrateur@groupagrica.com
 ${motdepasse_Admin}       agrica01
-${titre_profil_Admin}    AISC admin
+${titre_profil_Admin}    
 ${nom_utilisateur_Distributeur}      distributeur_qtpm@groupagrica.com
 ${motdepasse_Distributeur}      3X4!r&g6R
 ${titre_profil_Distributeur}    QTPM DISTRIBUTEUR

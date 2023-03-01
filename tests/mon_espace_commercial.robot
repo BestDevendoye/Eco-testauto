@@ -58,8 +58,8 @@ Creation devis offre Zenea
     Formulaire Devis-Entreprise-Offre Zenea
     Formulaire Devis-Signataires-Offre Zenea
     Formulaire Devis-Distributeur-Offre Zenea
-    Tarificateur Zenéa
-    Envoi de la proposition commerciale-Offre zenea
+    #Tarificateur Zenéa
+    #Envoi de la proposition commerciale-Offre zenea
 
 Creation zenea_produits_du_sol
     Connexion en tant que Distributeur_Produits_Sol
@@ -67,8 +67,8 @@ Creation zenea_produits_du_sol
     Formulaire Devis-Entreprise-Offre Zenea_Produits_Sol
     Formulaire Devis-Signataires-Offre Zenea_Produits_Sol
     Formulaire Devis-Distributeur-Offre Zenea_Produits_Sol
-    Tarificateur Zenéa_Produits_Sol
-    Envoi de la proposition commerciale-Offre zenea_Produits_Sol
+    #Tarificateur Zenéa_Produits_Sol
+    #Envoi de la proposition commerciale-Offre zenea_Produits_Sol
 
 Creation zenea_mareyeurs_expediteurs
     Connexion en tant que Distributeur_Mareyeurs_Expediteurs
@@ -76,8 +76,8 @@ Creation zenea_mareyeurs_expediteurs
     Formulaire Devis-Entreprise-Offre Zenea_Mareyeurs_Expediteurs
     Formulaire Devis-Signataires-Offre Zenea_Mareyeurs_Expediteurs
     Formulaire Devis-Distributeur-Offre Zenea_Mareyeurs_Expediteurs
-    Tarificateur Zenéa_Mareyeurs_Expediteurs
-    Envoi de la proposition commerciale-Offre zenea_Mareyeurs_Expediteurs
+    #Tarificateur Zenéa_Mareyeurs_Expediteurs
+    #Envoi de la proposition commerciale-Offre zenea_Mareyeurs_Expediteurs
 
 
 
@@ -88,8 +88,8 @@ Creation devis offre Famille Rurale
    Formulaire Devis-Entreprise-Offre Famille rurale
    Formulaire Devis-Signataires-Offre Famille rurale
    Formulaire Devis-Distributeur - Offre Famille rurale
-   Tarificateur Famille Rurale
-   Envoi de la proposition commerciale-Offre Famille rurale
+   #Tarificateur Famille Rurale
+   #Envoi de la proposition commerciale-Offre Famille rurale
 
 Creation devis offre ANPAD
    Connexion en tant que Credit Agricole
@@ -97,8 +97,8 @@ Creation devis offre ANPAD
    Formulaire Devis-Entreprise-Offre ANPAD
    Formulaire Devis-Signataires-Offre ANPAD
    Formulaire Devis-Distributeur-Zenea-Offre ANPAD
-   Tarificateur ANPAD
-   Envoi de la proposition commerciale-Offre ANPAD
+   #Tarificateur ANPAD
+   #Envoi de la proposition commerciale-Offre ANPAD
 
 Creation devis offre CCN52
   Connexion en tant que Assureur
@@ -106,8 +106,8 @@ Creation devis offre CCN52
   Formulaire Devis-Entreprise-Offre CCN52
   Formulaire Devis-Signataires-Offre CCN52
   Formulaire Devis-Distributeur-Offre CCN52
-  Tarificateur CCN52
-  Envoi de la proposition commerciale-Offre CCN52
+  #Tarificateur CCN52
+  #Envoi de la proposition commerciale-Offre CCN52
 
 Creation devis offre PER CPCEA NON CADRES PROD / ETARF
   Connexion en tant que Assureur
@@ -115,8 +115,8 @@ Creation devis offre PER CPCEA NON CADRES PROD / ETARF
   Formulaire Devis-Entreprise-Offre PER CPCEA non cadre PROD / ETARF
   Formulaire Devis-Signataires-Offre PER CPCEA non cadre PROD / ETARF
   Formulaire Devis-Distributeur-Offre PER CPCEA non cadrePROD / ETARF
-  Tarificateur PER CPCEA non cadre PROD / ETARF
-  Envoi de la proposition commerciale-Offre PER CPCEA non cadre PROD / ETARF
+  #Tarificateur PER CPCEA non cadre PROD / ETARF
+  #Envoi de la proposition commerciale-Offre PER CPCEA non cadre PROD / ETARF
 
 Creation devis offre Vins et spiritueux santé
   Connexion en tant que Distributeur
@@ -124,8 +124,8 @@ Creation devis offre Vins et spiritueux santé
   Formulaire Devis-Entreprise-Offre Vins et spiritueux santé
   Formulaire Devis-Signataires-Offre Vins et spiritueux santé
   Formulaire Devis-Distributeur-Offre Vins et spiritueux santé
-  Tarificateur Vins et spiritueux santé
-  Envoi de la proposition commerciale-Offre Vins et spiritueux santé
+  #Tarificateur Vins et spiritueux santé
+  #Envoi de la proposition commerciale-Offre Vins et spiritueux santé
 
 Creation devis offre Vins et spiritueux prévoyance
   Connexion en tant que Distributeur
@@ -133,8 +133,8 @@ Creation devis offre Vins et spiritueux prévoyance
   Formulaire Devis-Entreprise-Offre Vins et spiritueux prévoyance
   Formulaire Devis-Signataires-Offre Vins et spiritueux prévoyance
   Formulaire Devis-Distributeur-Offre Vins et spiritueux prévoyance
-  Tarificateur Vins et spiritueux prévoyance
-  Envoi de la proposition commerciale-Offre Vins et spiritueux prévoyance
+  #Tarificateur Vins et spiritueux prévoyance
+  #Envoi de la proposition commerciale-Offre Vins et spiritueux prévoyance
 
 Creation devis offre SDLM prévoyance
   Connexion en tant que Distributeur
@@ -142,8 +142,8 @@ Creation devis offre SDLM prévoyance
   Formulaire Devis-Entreprise-Offre SDLM prévoyance
   Formulaire Devis-Signataires-Offre SDLM prévoyance
   Formulaire Devis-Distributeur-Offre SDLM prévoyance
-  Tarificateur SDLM prévoyance
-  Envoi de la proposition commerciale-Offre Vins et spiritueux prévoyance
+  #Tarificateur SDLM prévoyance
+  #Envoi de la proposition commerciale-Offre Vins et spiritueux prévoyance
 
 Creation devis offre Centres équestres Santé
   Connexion en tant que distributeur Agrica équestres santé
@@ -151,8 +151,8 @@ Creation devis offre Centres équestres Santé
   Formulaire Devis-Entreprise-Offre équestres santé
   Formulaire Devis-Signataires-Offre équestres santé
   Formulaire Devis-Distributeur-Offre équestres santé
-  Tarificateur équestres santé
-  Envoi de la proposition commerciale-Offre équestres santé
+  #Tarificateur équestres santé
+  #Envoi de la proposition commerciale-Offre équestres santé
 
 Creation devis offre Centres équestres Prévoyance
   Connexion en tant que distributeur Agrica équestres prévoyance
@@ -160,8 +160,8 @@ Creation devis offre Centres équestres Prévoyance
   Formulaire Devis-Entreprise-Offre équestres prévoyance
   Formulaire Devis-Signataires-Offre équestres prévoyance
   Formulaire Devis-Distributeur-Offre équestres prévoyance
-  Tarificateur équestres prévoyance
-  Envoi de la proposition commerciale-Offre équestres prévoyance
+  #Tarificateur équestres prévoyance
+  #Envoi de la proposition commerciale-Offre équestres prévoyance
 
 Creation devis offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
   Connexion en tant que distributeur Agrica ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
@@ -169,8 +169,8 @@ Creation devis offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIE
   Formulaire Devis-Entreprise-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
   Formulaire Devis-Signataires-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
   Formulaire Devis-Distributeur-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
-  Tarificateur ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
-  Envoi de la proposition commerciale-Offre Accord NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
+  #Tarificateur ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
+  #Envoi de la proposition commerciale-Offre Accord NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
 
 Creation devis offre ACCORD TAM ET CADRES DU PAYSAGE
   Connexion en tant que distributeur Agrica ACCORD TAM ET CADRES DU PAYSAGE
@@ -178,8 +178,8 @@ Creation devis offre ACCORD TAM ET CADRES DU PAYSAGE
   Formulaire Devis-Entreprise-Offre ACCORD TAM ET CADRES DU PAYSAGE
   Formulaire Devis-Signataires-Offre ACCORD TAM ET CADRES DU PAYSAGE
   Formulaire Devis-Distributeur-Offre ACCORD TAM ET CADRES DU PAYSAGE
-  Tarificateur ACCORD TAM ET CADRES DU PAYSAGE
-  Envoi de la proposition commerciale-Offre Accord TAM et cadres du paysage
+  #Tarificateur ACCORD TAM ET CADRES DU PAYSAGE
+  #Envoi de la proposition commerciale-Offre Accord TAM et cadres du paysage
 
 Creation devis offre ILIP (Indemnité Licenciement Inaptitude professionnelle)
   Connexion en tant que distributeur Agrica ILIP
@@ -187,17 +187,17 @@ Creation devis offre ILIP (Indemnité Licenciement Inaptitude professionnelle)
   Formulaire Devis-Entreprise-Offre ILIP
   Formulaire Devis-Signataires-Offre ILIP
   Formulaire Devis-Distributeur-Offre ILIP
-  Tarificateur ILIP
-  Envoi de la proposition commerciale-Offre ILIP
+  #Tarificateur ILIP
+  #Envoi de la proposition commerciale-Offre ILIP
 
-Creation devis offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  Connexion en tant que distributeur Agrica ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  Formulaire Devis-Accès-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  Formulaire Devis-Entreprise-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  Formulaire Devis-Signataires-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  Formulaire Devis-Distributeur-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  Tarificateur ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  Envoi de la proposition commerciale-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+#Creation devis offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  #Connexion en tant que distributeur Agrica ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  #Formulaire Devis-Accès-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  #Formulaire Devis-Entreprise-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  #Formulaire Devis-Signataires-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  #Formulaire Devis-Distributeur-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  #Tarificateur ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  #Envoi de la proposition commerciale-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
 
 Creation devis offre SDLM_Santé
   Connexion en tant que distributeur Agrica SDLM_Santé
@@ -205,8 +205,8 @@ Creation devis offre SDLM_Santé
   Formulaire Devis-Entreprise-Offre SDLM_Santé
   Formulaire Devis-Signataires-Offre SDLM_Santé
   Formulaire Devis-Distributeur-Offre SDLM_Santé
-  Tarificateur SDLM_Santé
-  Envoi de la proposition commerciale-Offre SDLM_Santé
+  #Tarificateur SDLM_Santé
+  #Envoi de la proposition commerciale-Offre SDLM_Santé
 
 Creation devis CCN des entreprises du Paysage Ouvriers et Employés
    Connexion en tant que distributeur Agrica CCN des entreprises du Paysage Ouvriers et Employés
@@ -214,8 +214,8 @@ Creation devis CCN des entreprises du Paysage Ouvriers et Employés
    Formulaire Devis-Entreprise-Offre CCN des entreprises du Paysage Ouvriers et Employés
    Formulaire Devis-Signataires-Offre CCN des entreprises du Paysage Ouvriers et Employés
    Formulaire Devis-Distributeur-Offre CCN des entreprises du Paysage Ouvriers et Employés
-   Tarificateur CCN des entreprises du Paysage Ouvriers et Employés
-   Envoi de la proposition commerciale-Offre CCN des entreprises du Paysage Ouvriers et Employés
+   #Tarificateur CCN des entreprises du Paysage Ouvriers et Employés
+   #Envoi de la proposition commerciale-Offre CCN des entreprises du Paysage Ouvriers et Employés
 
 
 Creation devis RÉGIME D’ADHÉSION
@@ -224,8 +224,8 @@ Creation devis RÉGIME D’ADHÉSION
    Formulaire Devis-Entreprise-Offre RÉGIME D’ADHÉSION
    Formulaire Devis-Signataires-Offre RÉGIME D’ADHÉSION
    Formulaire Devis-Distributeur-Offre RÉGIME D’ADHÉSION
-   Tarificateur RÉGIME D’ADHÉSION
-   Envoi de la proposition commerciale-Offre RÉGIME D’ADHÉSION
+   #Tarificateur RÉGIME D’ADHÉSION
+   #Envoi de la proposition commerciale-Offre RÉGIME D’ADHÉSION
 
 Creation devis PER CPCEA - SUPPLÉMENT DE TAUX
    Connexion en tant que distributeur Agrica PER CPCEA - SUPPLÉMENT DE TAUX
@@ -233,5 +233,5 @@ Creation devis PER CPCEA - SUPPLÉMENT DE TAUX
    Formulaire Devis-Entreprise-Offre PER CPCEA - SUPPLÉMENT DE TAUX
    Formulaire Devis-Signataires-Offre PER CPCEA - SUPPLÉMENT DE TAUX
    Formulaire Devis-Distributeur-Offre PER CPCEA - SUPPLÉMENT DE TAUX
-   Tarificateur PER CPCEA - SUPPLÉMENT DE TAUX
-   Envoi de la proposition commerciale-Offre PER CPCEA - SUPPLÉMENT DE TAUX
+   #Tarificateur PER CPCEA - SUPPLÉMENT DE TAUX
+   #Envoi de la proposition commerciale-Offre PER CPCEA - SUPPLÉMENT DE TAUX

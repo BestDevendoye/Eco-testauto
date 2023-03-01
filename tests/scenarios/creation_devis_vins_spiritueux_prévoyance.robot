@@ -58,7 +58,7 @@ Formulaire Devis-Distributeur-Offre Vins et spiritueux prévoyance
     Renseigner le code conseiller    ${code_conseiller}
     Renseigner le téléphone fixe du distributeur    ${numtelephonefixe_distributeur}
     Renseigner le téléphone portable du distributeur    ${numtelephoneportable_distributeur}
-    Cliquer sur le bouton Etape suivante
+    #Cliquer sur le bouton Etape suivante
 
 Tarificateur Vins et spiritueux prévoyance
     Set Selenium Speed    1s

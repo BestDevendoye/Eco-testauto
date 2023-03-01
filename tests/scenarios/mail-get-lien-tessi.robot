@@ -2,6 +2,8 @@
 Library  String
 Library  REST    https://www.1secmail.com
 
+#Il n'existe de bibliothéque nommée REST dans Robot FRamework
+
 *** Keywords ***
 GET lien Tessi
     ${emailLogin} =  Fetch From Left   ${adressemail_signataire}  @

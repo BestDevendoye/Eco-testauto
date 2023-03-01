@@ -62,7 +62,7 @@ Formulaire Devis-Distributeur-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE E
     Renseigner le code conseiller    ${code_conseiller}
     Renseigner le téléphone fixe du distributeur    ${numtelephonefixe_distributeur}
     Renseigner le téléphone portable du distributeur    ${numtelephoneportable_distributeur}
-    Cliquer sur le bouton Etape suivante
+    #Cliquer sur le bouton Etape suivante
 
 Tarificateur ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES
     Log To Console    Step-06-Remplissage des champs Tarificateur

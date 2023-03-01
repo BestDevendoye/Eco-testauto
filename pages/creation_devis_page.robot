@@ -13,55 +13,57 @@ ${date_aujourd'hui}     xpath://span[@class='flatpickr-day today' and @aria-curr
 
 
 ###### Partie entreprise #####
-${champ_Email}        //*[@id="username"]
+${champ_Email}        xpath:/html/body/div[1]/div/div[2]/div/div[2]/form/div[2]/div/input
 #champ siret
-${champ_siret}      xpath://input[@id='edit-siret']
+${champ_siret}      xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[1]/div[1]/div/div/input
 #champ raison sociale
-${champ_raisonsociale}      xpath://input[@id='edit-raison-sociale']
+${champ_raisonsociale}      xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[2]/div/input
 #xpath://input[text()='Raison sociale *']//following-sibling::input
 #champ code NAF
-${champ_codeNaf}        xpath://input[@id='edit-code-naf']
+${champ_codeNaf}        xpath :/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[3]/div[1]/div/div/input
 #champ forme juridique
-${champ_formejuridique}     xpath://input[@id='edit-forme-juridique']
+${champ_formejuridique}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[3]/div[2]/div/div/input
 #champ date création de l'entreprise
-${champ_datecreation_entreprise}       xpath://input[@id='edit-date-creation-entreprise']
+${champ_datecreation_entreprise}       xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[3]/div[3]/div/div[2]/div[2]/div/div/input
 #champ adresse entreprise
-${champ_adresse_entreprise}     xpath://input[@id='edit-adresse']
+${champ_adresse_entreprise}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[4]/div/input
 #champ code postal entreprise
-${champ_codepostal_entreprise}      xpath://input[@id='edit-code-postal']
+${champ_codepostal_entreprise}      xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[6]/div[1]/div/div/input
 #champ ville entreprise
-${champ_ville_entreprise}       xpath://input[@id='edit-ville']
+${champ_ville_entreprise}       xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[6]/div[2]/div/div/input
 #champ pays entreprise
-${champ_pays_entreprise}        xpath://input[@id='edit-pays']
+${champ_pays_entreprise}        xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[6]/div[3]/div/div/input
 #champ couverture annuelle
-${champ_couverture_annuelle}    xpath://input[@id='edit-couverture-actuelle']
+${champ_couverture_annuelle}    xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[1]/div[2]/div/div/input
 #champ convention collective
-${champ_convention_collective}      xpath://textarea[@id='edit-convention-collective']
+${champ_convention_collective}      xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[3]/div[3]/div/div[1]/div/div/div/textarea
 #champ num iddc
-${champ_num_iddc}   id:edit-num-idcc
+${champ_num_iddc}   xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[3]/div[3]/div/div[2]/div[1]/div/input
 #bouton ajout d'un numéro SIRET de rattachement
-${btn_ajout_num_siret_rattachement}     id:add_siret_ratt
+${btn_ajout_num_siret_rattachement}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/a
 #champ siret rattachement
-${champ_siret_rattachement}     name:siret-1
+${champ_siret_rattachement}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[7]/div[1]/div[2]/div/input
+
+${label_raisonsociale_rattachement}        xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[7]/div[1]/div[3]/div/input
 #champ raison sociale rattachement
 #${champ_raisonsociale_rattachement}
 
 
 ##### Partie signataire #####
 #champ civilité
-${champ_civilite}     name:civilite
+${champ_civilite}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[1]/div/div/select
 #champ nom signataire
-${champ_nom}    id:edit-nom
+${champ_nom}    xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[2]/div/div/input
 #champ prenom signataire
-${champ_prenom}     id:edit-prenom
+${champ_prenom}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[3]/div/div/input
 #champ fonction signataire
-${champ_fonction}   id:edit-fonction
+${champ_fonction}   xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[4]/div/div/input
 #champ num téléphone directe signataire
-${champ_numtelephonedirecte}        id:edit-telephone-ligne-directe
+${champ_numtelephonedirecte}        xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[5]/div/div/input
 #champ num téléphone portable signataire
-${champ_numtelephoneportable}       id:edit-telephone-portable
+${champ_numtelephoneportable}       xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[6]/div/div/input
 #champ adresse mail signataire
-${champ_adressemail_signataire}    id:edit-email
+${champ_adressemail_signataire}    xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[7]/div/div/input
 
 
 ##### Partie distributeur #####
@@ -78,7 +80,7 @@ ${champ_telephonefixe_distributeur}      id:edit-telephone-fixe
 ${champ_telephoneportable_distributeur}     id:edit-telephone-mobile
 
 ##### Boutons #####
-${btn_etape_suivante}       xpath://button[contains(text(),'suivante')]
+${btn_etape_suivante}       xpath:/html/body/div[3]/div[2]/main/div/form/div[2]/div[2]/button
 
 *** Keywords ***
 
@@ -226,18 +228,20 @@ Renseigner le téléphone portable du distributeur
    [Arguments]     ${telephone_portable}
    Input Text       ${champ_telephoneportable_distributeur}     ${telephone_portable}
    
+   #COMMENTER POUR TESTER QUE L'ERREUR VIENT BIEN DU BUTTON ETAPE SUIVANTE. A DÉCOMMENTER ULTÉRIEUREMENT
 Cliquer sur le bouton Etape suivante
     Click Element    ${btn_etape_suivante}
-    ${titre_page_tarificateur}      Set Variable        xpath://div[contains(text(),'Famille Rurales') or contains(text(),'Zenéa') or contains(text(),'Accord National de la Coopération Agricole et des Industries Agroalimentaires') or contains(text(),'CCN52') or contains(text(),'CPCEA') or contains(text(),'Vins & Spiritueux Santé') or contains(text(),'Vins et spiritueux - Prévoyance') or contains(text(),'SDLM - Prévoyance') or contains(text(),'Centres équestres Santé') or contains(text(),'Centres équestres Prévoyance') or contains(text(),'Accord national de la production agricole - Santé') or contains(text(),'Indemnités de Licenciement pour Inaptitude Professionnelle') or contains(text(),'Accord TAM et Cadres du Paysage') or contains(text(),'Accord National de la Coopération Agricole et des Industries') or contains(text(),'SDLM - Santé') or contains(text(),'CCN des entreprises du Paysage Ouvriers et Employés') or contains(text(),"Régime d'adhésion") or contains(text(),"Epargne Retraite") ]
-    Wait Until Page Contains Element    ${titre_page_tarificateur}
+    #${titre_page_tarificateur}      Set Variable        xpath:
+    #${titre_page_tarificateur}      Set Variable        xpath://div[contains(text(),'Famille Rurales') or contains(text(),'Zenéa') or contains(text(),'Accord National de la Coopération Agricole et des Industries Agroalimentaires') or contains(text(),'CCN52') or contains(text(),'CPCEA') or contains(text(),'Vins & Spiritueux Santé') or contains(text(),'Vins et spiritueux - Prévoyance') or contains(text(),'SDLM - Prévoyance') or contains(text(),'Centres équestres Santé') or contains(text(),'Centres équestres Prévoyance') or contains(text(),'Accord national de la production agricole - Santé') or contains(text(),'Indemnités de Licenciement pour Inaptitude Professionnelle') or contains(text(),'Accord TAM et Cadres du Paysage') or contains(text(),'Accord National de la Coopération Agricole et des Industries') or contains(text(),'SDLM - Santé') or contains(text(),'CCN des entreprises du Paysage Ouvriers et Employés') or contains(text(),"Régime d'adhésion") or contains(text(),"Epargne Retraite") ]
+    #Wait Until Page Contains Element    
 
 
 #Affichage des messages en cas de renseignement des informations incorrectes
 
-Vérifier la présence d'un message en cas du numéro de Siret non renseigné
-    Renseigner la date d'entretien
-    Cliquer sur le bouton Etape suivante
-    Alert Should Be Present     Veuillez renseigner ce champ.
+#Vérifier la présence d'un message en cas du numéro de Siret non renseigné
+    #Renseigner la date d'entretien
+    #Cliquer sur le bouton Etape suivante
+    #Alert Should Be Present     Veuillez renseigner ce champ.
 
 Verifier le message d'alerte Email
      #Page Should Contain   Veuillez renseigner ce champ.

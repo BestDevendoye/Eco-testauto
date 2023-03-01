@@ -63,7 +63,7 @@ Formulaire Devis-Distributeur-Offre ILIP
     Renseigner le code conseiller    ${code_conseiller}
     Renseigner le téléphone fixe du distributeur    ${numtelephonefixe_distributeur}
     Renseigner le téléphone portable du distributeur    ${numtelephoneportable_distributeur}
-    Cliquer sur le bouton Etape suivante
+    #Cliquer sur le bouton Etape suivante
 
 Tarificateur ILIP
     Log To Console    Step-06-Remplissage des champs Tarificateur

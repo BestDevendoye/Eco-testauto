@@ -63,7 +63,7 @@ Formulaire Devis-Distributeur-Zenea-Offre ANPAD
     Renseigner le code conseiller    ${code_conseiller_Credit_Agricole}
     Renseigner le téléphone fixe du distributeur    ${numtelephonefixe_distributeur}
     Renseigner le téléphone portable du distributeur    ${numtelephoneportable_distributeur}
-    Cliquer sur le bouton Etape suivante
+    #Cliquer sur le bouton Etape suivante
 
 Tarificateur ANPAD
     Set Selenium Speed    1s

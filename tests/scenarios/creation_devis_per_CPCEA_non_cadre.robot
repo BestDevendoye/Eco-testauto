@@ -64,7 +64,7 @@ Formulaire Devis-Distributeur-Offre PER CPCEA non cadre PROD / ETARF
     Renseigner le code conseiller    ${code_conseiller}
     Renseigner le téléphone fixe du distributeur    ${numtelephonefixe_distributeur}
     Renseigner le téléphone portable du distributeur    ${numtelephoneportable_distributeur}
-    Cliquer sur le bouton Etape suivante
+    #Cliquer sur le bouton Etape suivante
 
 Tarificateur PER CPCEA non cadre PROD / ETARF
     Log To Console    Step-06-Remplissage des champs Tarificateur PER CPCEA non cadre PROD

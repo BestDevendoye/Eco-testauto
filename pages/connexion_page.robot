@@ -23,14 +23,14 @@ ${btn_deconnexion}      xpath://a[contains(text(),'Déconnexion')]
 ${msg_sans_@}      Veuillez inclure "@" dans l'adresse e-mail. Il manque un symbole "@" dans "auto.commercialtest.fr".
 
 #message mot de passe incorrecte
-${Password_incorrecte}       xpath://*[@id="loginForm"]/div[1]/div/div/p
+${Password_incorrecte}       xpath://*[@id="password"]
 ${msg_password_incorrecte}    Le couple identifiant / mot de passe n'est pas valide !
 
 # mot de passe oublié
 ${Password_oublié}    xpath://*[@id="edit-forgot-password"]/a
 ${page_motDePasse_oublié}    xpath://*[@id="resetForm"]
 ${btn_envoyer}    xpath://*[@value="Envoyer"]
-${btn_conx_authenti}    /html/body/div[1]/div/div[2]/div/div[2]/div[2]/a
+${btn_conx_authenti}    xpath:/html/body/div[1]/div/div[2]/div/div[2]/div[2]/a
 
 *** Keywords ***
 Entrer l'adresse mail
@@ -57,7 +57,7 @@ Cliquer sur le bouton envoyer
 Cliquer sur le bouton conx authentification
     click button    ${btn_conx_authenti}
 Avoir le nom d'utilisateur dans la page d'acceuil
-    Get Text    ${txt_profil_connecté}
+    Get Text    ${nom_profil_connecté}
 
 Se deconnecter de Agrica
     Click Element    ${btn_deconnexion}
