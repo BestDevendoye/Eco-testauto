@@ -27,7 +27,9 @@ Resource    scenarios/creation_devis_per_CPCEA_supplément_taux.robot
 Resource    scenarios_non_passants/creation_devis_cas_non_passant_SDLM_prevoyance.robot
 Resource    scenarios_non_passants/CCN52_non_passant.robot
 Resource    scenarios_non_passants/creation_devis_non_passant_accord_national_cooperation_agricole_indusctries.robot
-
+Resource    scenarios_non_passants/creation_devis_non_passant_accord_national_de_la_production_agricole.robot
+Resource    scenarios_non_passants/creation_devis_non_passant_offre_zenea.robot
+Resource    scenarios_non_passants/creation_devis_non_passant_zenea_produits_du_sol.robot
 
 
 
@@ -54,8 +56,8 @@ Connexion en tant que commercial/assureur/admin/caisse regionale/Distributeur
     Se deconnecter de Agrica
     Connexion en tant que Assureur
     Se deconnecter de Agrica
-    Connexion en tant que Admin
-    Se deconnecter de Agrica
+    #Connexion en tant que Admin
+    #Se deconnecter de Agrica
 
 
 Creation devis offre Zenea
@@ -196,12 +198,14 @@ Creation devis offre ILIP (Indemnité Licenciement Inaptitude professionnelle)
   #Tarificateur ILIP
   #Envoi de la proposition commerciale-Offre ILIP
 
-#Creation devis offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  #Connexion en tant que distributeur Agrica ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  #Formulaire Devis-Accès-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  #Formulaire Devis-Entreprise-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  #Formulaire Devis-Signataires-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
-  #Formulaire Devis-Distributeur-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  ## Ce test ne passe pas 
+
+Creation devis offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  Connexion en tant que distributeur Agrica ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  Formulaire Devis-Accès-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  Formulaire Devis-Entreprise-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  Formulaire Devis-Signataires-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
+  Formulaire Devis-Distributeur-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
   #Tarificateur ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
   #Envoi de la proposition commerciale-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
 
@@ -271,4 +275,27 @@ Création devis Accord national cooperation agricole non passant
     Formulaire Devis-Entreprise-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES non passant
     Formulaire Devis-Signataires-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES non passant
     Formulaire Devis-Distributeur-Offre ACCORD NATIONAL DE LA COOPERATION AGRIGOLE ET DES INDUSTRIES non passant
-      
+
+
+Creation devis offre ANPAD non passant
+    Connexion en tant que Credit Agricole non passant
+    Formulaire Devis-Accès-Offre ANPAD non passant
+    Formulaire Devis-Entreprise-Offre ANPAD non passant 
+    Formulaire Devis-Signataires-Offre ANPAD non passant
+    Formulaire Devis-Distributeur-Zenea-Offre ANPAD non passant
+
+Creation devis offre Zenea non passant
+    Connexion en tant que Assureur non passant
+    Formulaire Devis-Accès-Offre Zenea non passant
+    Formulaire Devis-Entreprise-Offre Zenea non passant
+    Formulaire Devis-Signataires-Offre Zenea non passant
+    Formulaire Devis-Distributeur-Offre Zenea non passant
+
+
+Creation zenea_produits_du_sol non passant
+    Connexion en tant que Distributeur
+    Formulaire Devis-Accès-Offre Zenea_Produits_Sol non passant
+    Formulaire Devis-Entreprise-Offre Zenea_Produits_Sol non passant
+    Formulaire Devis-Signataires-Offre Zenea_Produits_Sol non passant
+    Formulaire Devis-Distributeur-Offre Zenea_Produits_Sol non passant
+    

@@ -23,5 +23,5 @@ ${nom_utilisateur_Admin}      administrateur@groupagrica.com
 ${motdepasse_Admin}       agrica01
 ${titre_profil_Admin}    
 ${nom_utilisateur_Distributeur}      distributeur_qtpm@groupagrica.com
-${motdepasse_Distributeur}      3X4!r&g6R
+${motdepasse_Distributeur}      sRM!9w97p
 ${titre_profil_Distributeur}    QTPM DISTRIBUTEUR

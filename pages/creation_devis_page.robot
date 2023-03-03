@@ -15,55 +15,56 @@ ${date_aujourd'hui}     xpath://span[@class='flatpickr-day today' and @aria-curr
 ###### Partie entreprise #####
 ${champ_Email}        xpath:/html/body/div[1]/div/div[2]/div/div[2]/form/div[2]/div/input
 #champ siret
-${champ_siret}      xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[1]/div[1]/div/div/input
+#xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[1]/div[1]/div/div/input       //*[@id="edit-siret"]     //*[@id="edit-siret"]
+${champ_siret}        xpath://*[@id="edit-siret"]
 #champ raison sociale
-${champ_raisonsociale}      xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[2]/div/input
+${champ_raisonsociale}      xpath://*[@id="edit-raison-sociale"]
 #xpath://input[text()='Raison sociale *']//following-sibling::input
 #champ code NAF
-${champ_codeNaf}        xpath :/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[3]/div[1]/div/div/input
+${champ_codeNaf}        xpath ://*[@id="edit-code-naf"]
 #champ forme juridique
-${champ_formejuridique}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[3]/div[2]/div/div/input
+${champ_formejuridique}     xpath://*[@id="edit-forme-juridique"]
 #champ date création de l'entreprise
-${champ_datecreation_entreprise}       xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[3]/div[3]/div/div[2]/div[2]/div/div/input
+${champ_datecreation_entreprise}       xpath://*[@id="edit-date-creation-entreprise"]
 #champ adresse entreprise
-${champ_adresse_entreprise}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[4]/div/input
+${champ_adresse_entreprise}     xpath://*[@id="edit-adresse"]
 #champ code postal entreprise
-${champ_codepostal_entreprise}      xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[6]/div[1]/div/div/input
+${champ_codepostal_entreprise}      xpath://*[@id="edit-code-postal"]
 #champ ville entreprise
-${champ_ville_entreprise}       xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[6]/div[2]/div/div/input
+${champ_ville_entreprise}       xpath://*[@id="edit-ville"]
 #champ pays entreprise
-${champ_pays_entreprise}        xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[6]/div[3]/div/div/input
+${champ_pays_entreprise}        xpath://*[@id="edit-pays"]
 #champ couverture annuelle
-${champ_couverture_annuelle}    xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[1]/div[2]/div/div/input
+${champ_couverture_annuelle}    xpath://*[@id="edit-couverture-actuelle"]
 #champ convention collective
-${champ_convention_collective}      xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[3]/div[3]/div/div[1]/div/div/div/textarea
+${champ_convention_collective}      xpath://*[@id="edit-convention-collective"]
 #champ num iddc
-${champ_num_iddc}   xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[3]/div[3]/div/div[2]/div[1]/div/input
+${champ_num_iddc}   xpath://*[@id="edit-num-idcc"]
 #bouton ajout d'un numéro SIRET de rattachement
-${btn_ajout_num_siret_rattachement}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/a
+${btn_ajout_num_siret_rattachement}     xpath://*[@id="add_siret_ratt"]
 #champ siret rattachement
-${champ_siret_rattachement}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[7]/div[1]/div[2]/div/input
+${champ_siret_rattachement}     xpath://*[@id="edit-siret-1"]
 
-${label_raisonsociale_rattachement}        xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[7]/div[1]/div[3]/div/input
+${label_raisonsociale_rattachement}        xpath://*[@id="edit-raison-sociale-siret-1"]
 #champ raison sociale rattachement
 #${champ_raisonsociale_rattachement}
 
 
 ##### Partie signataire #####
 #champ civilité
-${champ_civilite}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[1]/div/div/select
+${champ_civilite}     xpath://*[@id="dashboardFilter1"]
 #champ nom signataire
-${champ_nom}    xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[2]/div/div/input
+${champ_nom}    xpath://*[@id="edit-nom"]
 #champ prenom signataire
-${champ_prenom}     xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[3]/div/div/input
+${champ_prenom}     xpath://*[@id="edit-nom"]
 #champ fonction signataire
-${champ_fonction}   xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[4]/div/div/input
+${champ_fonction}   xpath://*[@id="edit-fonction"]
 #champ num téléphone directe signataire
-${champ_numtelephonedirecte}        xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[5]/div/div/input
+${champ_numtelephonedirecte}        xpath://*[@id="edit-telephone-ligne-directe"]
 #champ num téléphone portable signataire
-${champ_numtelephoneportable}       xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[6]/div/div/input
+${champ_numtelephoneportable}       xpath://*[@id="edit-telephone-portable"]
 #champ adresse mail signataire
-${champ_adressemail_signataire}    xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[3]/div/div[7]/div/div/input
+${champ_adressemail_signataire}    xpath://*[@id="edit-email"]
 
 
 ##### Partie distributeur #####
@@ -80,7 +81,9 @@ ${champ_telephonefixe_distributeur}      id:edit-telephone-fixe
 ${champ_telephoneportable_distributeur}     id:edit-telephone-mobile
 
 ##### Boutons #####
-${btn_etape_suivante}       xpath:/html/body/div[3]/div[2]/main/div/form/div[2]/div[2]/button
+${btn_etape_suivante}       xpath://*[@id="sendDevis"]
+
+
 
 *** Keywords ***
 
