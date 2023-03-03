@@ -27,7 +27,7 @@ Formulaire Devis-Accès-Offre Vins et spiritueux prévoyance
     Renseigner la date d'entretien
 
 
- Formulaire Devis-Entreprise-Offre Vins et spiritueux prévoyance
+Formulaire Devis-Entreprise-Offre Vins et spiritueux prévoyance
     Renseigner le numéro du SIRET    ${num_siret}
     Renseigner la couverture annuelle    ${couverture_annuelle}
     Renseigner la convention collective    ${convention_collective}

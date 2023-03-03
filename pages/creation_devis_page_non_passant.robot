@@ -87,7 +87,7 @@ ${champ_telephoneportable_distributeur}     id:edit-telephone-mobile
 ${btn_etape_suivante}       xpath:/html/body/div[3]/div[2]/main/div/form/div[2]/div[2]/button
 
 ${champ_message_erreur_pays_entreprise}    xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[6]/div[4]/div/div/div/ul/li
-${message_erreur_siret_incorrect}    xpath:/html/body/div[3]/div[2]/main/div/form/div[1]/div/div/fieldset[2]/div[1]/div[1]/div/div/div/div/ul/li
+${message_erreur_siret_incorrect}    xpath://*[@id="message-for-siret"]/div/ul/li
 
 *** Keywords ***
 

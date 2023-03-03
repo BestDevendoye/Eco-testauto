@@ -30,6 +30,15 @@ Resource    scenarios_non_passants/creation_devis_non_passant_accord_national_co
 Resource    scenarios_non_passants/creation_devis_non_passant_accord_national_de_la_production_agricole.robot
 Resource    scenarios_non_passants/creation_devis_non_passant_offre_zenea.robot
 Resource    scenarios_non_passants/creation_devis_non_passant_zenea_produits_du_sol.robot
+Resource    scenarios_non_passants/creation_devis_non_passant_zenea_mareyeurs_expediteurs.robot
+Resource    scenarios_non_passants/creation_devis_non_passant_accord_national_prod_agricole_santé.robot
+Resource    scenarios_non_passants/creation_devis_non_passant_ILIP.robot
+Resource    scenarios_non_passants/creation_devis_non_passant_centres_équestres_santé.robot
+Resource    scenarios_non_passants/creation_devis_non_passant_CCN_entreprises_paysage_ouvriers_employés.robot
+Resource    scenarios_non_passants/creation_devis_non_passant_per_CPCEA_supplément_taux.robot
+Resource    scenarios_non_passants/creation_devis_non_passant_régime_adhésion.robot
+Resource    scenarios_non_passants/creation_devis_non_passant_vins_spiritueux_prévoyance.robot
+
 
 
 
@@ -198,7 +207,7 @@ Creation devis offre ILIP (Indemnité Licenciement Inaptitude professionnelle)
   #Tarificateur ILIP
   #Envoi de la proposition commerciale-Offre ILIP
 
-  ## Ce test ne passe pas 
+
 
 Creation devis offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
   Connexion en tant que distributeur Agrica ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ
@@ -298,4 +307,75 @@ Creation zenea_produits_du_sol non passant
     Formulaire Devis-Entreprise-Offre Zenea_Produits_Sol non passant
     Formulaire Devis-Signataires-Offre Zenea_Produits_Sol non passant
     Formulaire Devis-Distributeur-Offre Zenea_Produits_Sol non passant
-    
+
+
+Creation zenea_mareyeurs_expediteurs non passant
+    Connexion en tant que Distributeur_Mareyeurs_Expediteurs non passant
+    Formulaire Devis-Accès-Offre Zenea_Mareyeurs_Expediteurs non passant
+    Formulaire Devis-Entreprise-Offre Zenea_Mareyeurs_Expediteurs non passant
+    Formulaire Devis-Signataires-Offre Zenea_Mareyeurs_Expediteurs non passant
+    Formulaire Devis-Distributeur-Offre Zenea_Mareyeurs_Expediteurs non passant
+
+
+Creation devis offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ non passant
+  Connexion en tant que distributeur Agrica ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ non passant
+  Formulaire Devis-Accès-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ non passant
+  Formulaire Devis-Entreprise-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ non passant
+  Formulaire Devis-Signataires-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ non passant
+  Formulaire Devis-Distributeur-Offre ACCORD NATIONAL DE LA PRODUCTION AGRICOLE – SANTÉ non passant
+
+
+Creation devis offre ILIP (Indemnité Licenciement Inaptitude professionnelle) non passant
+  Connexion en tant que distributeur Agrica ILIP non passant
+  Formulaire Devis-Accès-Offre ILIP non passant
+  Formulaire Devis-Entreprise-Offre ILIP non passant
+  Formulaire Devis-Signataires-Offre ILIP non passant
+  Formulaire Devis-Distributeur-Offre ILIP non passant
+
+
+Creation devis offre Centres équestres Santé non passant
+  Connexion en tant que distributeur Agrica équestres santé non passant
+  Formulaire Devis-Accès-Offre équestres santé non passant
+  Formulaire Devis-Entreprise-Offre équestres santé non passant
+  Formulaire Devis-Signataires-Offre équestres santé non passant
+  Formulaire Devis-Distributeur-Offre équestres santé non passant
+
+
+Creation devis CCN des entreprises du Paysage Ouvriers et Employés non passant
+   Connexion en tant que distributeur Agrica CCN des entreprises du Paysage Ouvriers et Employés non passant
+   Formulaire Devis-Accès-Offre CCN des entreprises du Paysage Ouvriers et Employés non passant
+   Formulaire Devis-Entreprise-Offre CCN des entreprises du Paysage Ouvriers et Employés non passant
+   Formulaire Devis-Signataires-Offre CCN des entreprises du Paysage Ouvriers et Employés non passant
+   Formulaire Devis-Distributeur-Offre CCN des entreprises du Paysage Ouvriers et Employés non passant
+
+
+
+Creation devis PER CPCEA - SUPPLÉMENT DE TAUX
+   Connexion en tant que distributeur Agrica PER CPCEA - SUPPLÉMENT DE TAUX non passant
+   Formulaire Devis-Accès-Offre PER CPCEA - SUPPLÉMENT DE TAUX non passant
+   Formulaire Devis-Entreprise-Offre PER CPCEA - SUPPLÉMENT DE TAUX non passant
+   Formulaire Devis-Signataires-Offre PER CPCEA - SUPPLÉMENT DE TAUX non passant
+   Formulaire Devis-Distributeur-Offre PER CPCEA - SUPPLÉMENT DE TAUX non passant
+
+
+
+Creation devis RÉGIME D’ADHÉSION non passant
+   Connexion en tant que distributeur Agrica RÉGIME D’ADHÉSION non passant
+   Formulaire Devis-Accès-Offre RÉGIME D’ADHÉSION non passant
+   Formulaire Devis-Entreprise-Offre RÉGIME D’ADHÉSION non passant
+   Formulaire Devis-Signataires-Offre RÉGIME D’ADHÉSION non passant
+   Formulaire Devis-Distributeur-Offre RÉGIME D’ADHÉSION non passant
+
+
+
+Creation devis offre Vins et spiritueux prévoyance non passant
+  Connexion en tant que distributeur Agrica Vins et spiritueux prévoyance non passant
+  Formulaire Devis-Accès-Offre Vins et spiritueux prévoyance non passant
+  Formulaire Devis-Entreprise-Offre Vins et spiritueux prévoyance non passant
+  Formulaire Devis-Signataires-Offre Vins et spiritueux prévoyance non passant
+  Formulaire Devis-Distributeur-Offre Vins et spiritueux prévoyance non passant
+
+
+
+  
+
