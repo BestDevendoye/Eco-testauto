@@ -4,10 +4,10 @@ Library     SeleniumLibrary   run_on_failure=Capture Page Screenshot  timeout=0:
 *** Variables ***
 
 ${champ_date}    xpath://*[@id="edit-date-de-la-demande"]
-${champ_objet_demande}    xpath://*[@id="niveau_de__garantie"]/div/div/div/button/div/div/div
+${champ_objet_demande}    class:filter-option-inner-inner
 ${champ_accord}    xpath://*[@id="vos_besoin"]/span[1]/div/div/div/button/div/div/div
 ${entreprise_exploi_agricole}    xpath://*[@id="vos_besoin"]/span[1]/div/div/div/div/div/ul/li[2]/a/span
-${champ_obligation_conventionnelle}    //*[@id="niveau_de__garantie"]/div/div/div/div/div/ul/li[3]/a/span
+${champ_obligation_conventionnelle}    xpath://*[@id="niveau_de__garantie"]/div/div/div/div/div/ul/li[3]/a/span
 ${champ_niveau_garantie}    xpath://*[@id="choix_de__garantie"]/div/div/div/button/div/div/div
 ${champ_taux_convention}    xpath://*[@id="choix_de__garantie"]/div/div/div/div/div/ul/li[2]/a/span
 ${champ_date_effet_souhaité}    xpath://*[@id="self_care_date_d_effet"]
