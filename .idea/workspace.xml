@@ -4,58 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a07d3ef-c060-4c70-9245-debd864f1610" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-11.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-14.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-15.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-8.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/geckodriver-9.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/results/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/results/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/results/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/mon_espace_commercial.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/mon_espace_commercial.robot" afterDir="false" />
-    </list>
+    <list default="true" id="0a07d3ef-c060-4c70-9245-debd864f1610" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +21,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/dione/Documents/Projet/Automatisation Test/Automatisatio_Test_Robot_Framework"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

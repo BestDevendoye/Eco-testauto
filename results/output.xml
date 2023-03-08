@@ -1,528 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.8.10 on linux)" generated="20230304 22:56:36.152" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.8.10 on linux)" generated="20230307 21:46:43.920" rpa="false" schemaversion="3">
 <suite id="s1" name="Eco-testauto" source="/home/dione/Documents/Projet/ProjetDaouda/Eco-testauto">
 <suite id="s1-s1" name="Tests" source="/home/dione/Documents/Projet/ProjetDaouda/Eco-testauto/tests">
-<suite id="s1-s1-s1" name="Mon Espace Commercial" source="/home/dione/Documents/Projet/ProjetDaouda/Eco-testauto/tests/mon_espace_commercial.robot">
-<test id="s1-s1-s1-t1" name="Creation devis RÉGIME D’ADHÉSION non passant" line="362">
-<kw name="Ouvrir le navigateur" library="selenium_utils" type="SETUP">
-<arg>${url}</arg>
+<suite id="s1-s1-s1" name="PAI selfcare" source="/home/dione/Documents/Projet/ProjetDaouda/Eco-testauto/tests/PAI_selfcare.robot">
+<test id="s1-s1-s1-t1" name="Création devis PAI selfcare public accord nationaux production agricole cas études personalé" line="21">
+<kw name="Ouvrir le navigateur PAI selfcare public" library="selenium_utils_PAI_selfcare" type="SETUP">
+<arg>${url_selfcare}</arg>
 <arg>${browser}</arg>
 <kw name="Open Browser" library="SeleniumLibrary">
-<arg>${url}</arg>
+<arg>${url_selfcare}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20230304 22:56:37.031" level="INFO">Opening browser 'Chrome' to base url 'https://qualif-partenaires.groupagrica.com/'.</msg>
-<status status="PASS" starttime="20230304 22:56:37.029" endtime="20230304 22:56:39.887"/>
+<msg timestamp="20230307 21:46:44.495" level="INFO">Opening browser 'Chrome' to base url 'https://qualif-www.agrica.loc/agrica-prevoyance/laccord-national-retraite-supplementaire-des-non-cadres/devisenligne'.</msg>
+<msg timestamp="20230307 21:46:46.872" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-24.png"&gt;&lt;img src="selenium-screenshot-24.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230307 21:46:46.873" level="FAIL">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=110.0.5481.177)
+</msg>
+<status status="FAIL" starttime="20230307 21:46:44.494" endtime="20230307 21:46:46.878"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20230304 22:56:39.891" endtime="20230304 22:56:40.003"/>
+<status status="NOT RUN" starttime="20230307 21:46:46.880" endtime="20230307 21:46:46.881"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Exécution de test démarrée sur ${browser}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230304 22:56:40.005" endtime="20230304 22:56:40.006"/>
+<status status="NOT RUN" starttime="20230307 21:46:46.882" endtime="20230307 21:46:46.883"/>
 </kw>
-<status status="PASS" starttime="20230304 22:56:37.028" endtime="20230304 22:56:40.007"/>
+<status status="FAIL" starttime="20230307 21:46:44.492" endtime="20230307 21:46:46.884"/>
 </kw>
-<kw name="Connexion en tant que distributeur Agrica RÉGIME D’ADHÉSION non passant" library="creation_devis_non_passant_régime_adhésion">
-<kw name="Log To Console" library="BuiltIn">
-<arg>Step-01-Connexion en tant que destributeur</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230304 22:56:40.011" endtime="20230304 22:56:40.012"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>path : ${EXEC_DIR}/pages/connexion_page.robot</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230304 22:56:40.013" endtime="20230304 22:56:40.014"/>
-</kw>
-<kw name="Se connecter à Agrica Espace Co" library="connexion_page">
-<arg>${nom_utilisateur_Distributeur}</arg>
-<arg>${motdepasse_Distributeur}</arg>
-<arg>${titre_profil_Distributeur}</arg>
-<kw name="Entrer l'adresse mail" library="connexion_page">
-<arg>${nom_utilisateur}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_adressemail}</arg>
-<arg>${nom_utilisateur}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:40.020" level="INFO">Typing text 'distributeur_qtpm@groupagrica.com' into text field 'id:username'.</msg>
-<status status="PASS" starttime="20230304 22:56:40.017" endtime="20230304 22:56:40.365"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:40.016" endtime="20230304 22:56:40.365"/>
-</kw>
-<kw name="Entrer le mot de passe" library="connexion_page">
-<arg>${motdepasse}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_motdepasse}</arg>
-<arg>${motdepasse}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:40.373" level="INFO">Typing text 'sRM!9w97p' into text field 'id:password'.</msg>
-<status status="PASS" starttime="20230304 22:56:40.368" endtime="20230304 22:56:40.501"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:40.366" endtime="20230304 22:56:40.502"/>
-</kw>
-<kw name="Cliquer sur le bouton Connexion" library="connexion_page">
-<kw name="Click Button" library="SeleniumLibrary">
-<arg>${btn_connexion}</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:40.507" level="INFO">Clicking button 'id:edit-submit'.</msg>
-<status status="PASS" starttime="20230304 22:56:40.505" endtime="20230304 22:56:43.163"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:40.504" endtime="20230304 22:56:43.166"/>
-</kw>
-<kw name="Wait Until Page Contains" library="SeleniumLibrary">
-<arg>${nom_profil_attendu}</arg>
-<doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" starttime="20230304 22:56:43.172" endtime="20230304 22:56:43.215"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:40.014" endtime="20230304 22:56:43.216"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:40.009" endtime="20230304 22:56:43.217"/>
-</kw>
-<kw name="Formulaire Devis-Accès-Offre RÉGIME D’ADHÉSION non passant" library="creation_devis_non_passant_régime_adhésion">
-<kw name="Log To Console" library="BuiltIn">
-<arg>Step-02-Clic sur RÉGIME D’ADHÉSION</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230304 22:56:43.222" endtime="20230304 22:56:43.223"/>
-</kw>
-<kw name="Cliquer sur le lien Offres" library="choix_offre_agrica">
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${lien_offe_Agrica_Prevoyance}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:43.228" level="INFO">Clicking element 'xpath://a[contains(@href,'offres-agrica-prevoyance') and @class='btn btn-primary btn-arrow btn-large']'.</msg>
-<status status="PASS" starttime="20230304 22:56:43.226" endtime="20230304 22:56:44.292"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:43.224" endtime="20230304 22:56:44.293"/>
-</kw>
-<kw name="Cliquer sur l'offre RÉGIME D’ADHÉSION" library="choix_offre_agrica">
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${btn_devis_régime_adhésion}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:44.296" level="INFO">Clicking element 'xpath://a[contains(@href,'CONF_REGADH') and @class='btn btn-devis']'.</msg>
-<status status="PASS" starttime="20230304 22:56:44.295" endtime="20230304 22:56:46.388"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:44.294" endtime="20230304 22:56:46.389"/>
-</kw>
-<kw name="Renseigner la date d'entretien" library="creation_devis_page">
-<kw name="Cliquer sur le champ date" library="creation_devis_page">
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${champ_date_entretien}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:46.394" level="INFO">Clicking element 'id:edit-date-entretien'.</msg>
-<status status="PASS" starttime="20230304 22:56:46.393" endtime="20230304 22:56:46.466"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:46.392" endtime="20230304 22:56:46.467"/>
-</kw>
-<kw name="Cliquer sur la date d'aujourd'hui" library="creation_devis_page">
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${date_aujourd'hui}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:46.472" level="INFO">Clicking element 'xpath://span[@class='flatpickr-day today' and @aria-current='date']'.</msg>
-<status status="PASS" starttime="20230304 22:56:46.470" endtime="20230304 22:56:46.557"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:46.468" endtime="20230304 22:56:46.558"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:46.391" endtime="20230304 22:56:46.559"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:43.220" endtime="20230304 22:56:46.559"/>
-</kw>
-<kw name="Formulaire Devis-Entreprise-Offre RÉGIME D’ADHÉSION non passant" library="creation_devis_non_passant_régime_adhésion">
-<kw name="Log To Console" library="BuiltIn">
-<arg>Step-03-Remplissage des champs Entreprise</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230304 22:56:46.567" endtime="20230304 22:56:46.570"/>
-</kw>
-<kw name="Vérifier que le numéro de SIRET n'est pas correct" library="creation_devis_page_non_passant">
-<arg>${num_siret_incorrect}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_siret}</arg>
-<arg>${num_siret_incorrect}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:46.575" level="INFO">Typing text '7120391630' into text field 'xpath://*[@id="edit-siret"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:46.573" endtime="20230304 22:56:46.865"/>
-</kw>
-<kw name="Should Not Be Equal As Numbers" library="BuiltIn">
-<arg>${num_siret_incorrect}</arg>
-<arg>71203916300035</arg>
-<doc>Fails if objects are equal after converting them to real numbers.</doc>
-<status status="PASS" starttime="20230304 22:56:46.867" endtime="20230304 22:56:46.868"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:46.571" endtime="20230304 22:56:46.870"/>
-</kw>
-<kw name="Ajouter la couverture annuelle" library="creation_devis_page_non_passant">
-<arg>${couverture_annuelle}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_couverture_annuelle}</arg>
-<arg>${couverture_annuelle}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:46.877" level="INFO">Typing text '5' into text field 'xpath://*[@id="edit-couverture-actuelle"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:46.874" endtime="20230304 22:56:47.058"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:46.871" endtime="20230304 22:56:47.059"/>
-</kw>
-<kw name="Ajouter la convention collective" library="creation_devis_page_non_passant">
-<arg>${convention_collective}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_convention_collective}</arg>
-<arg>${convention_collective}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:47.063" level="INFO">Typing text 'nn' into text field 'xpath://*[@id="edit-convention-collective"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:47.061" endtime="20230304 22:56:47.230"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:47.060" endtime="20230304 22:56:47.231"/>
-</kw>
-<kw name="Ajouter un numero de SIRET de rattachemment incorrect" library="creation_devis_page_non_passant">
-<arg>${num_siret_rattachement_incorrect}</arg>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${btn_ajout_num_siret_rattachement}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:47.235" level="INFO">Clicking element 'xpath://*[@id="add_siret_ratt"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:47.233" endtime="20230304 22:56:47.333"/>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_siret_rattachement}</arg>
-<arg>${num_siret_rattachement_incorrect}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:47.340" level="INFO">Typing text '900 8489380' into text field 'xpath://*[@id="edit-siret-1"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:47.334" endtime="20230304 22:56:47.689"/>
-</kw>
-<kw name="Should Not Be Equal As Numbers" library="BuiltIn">
-<arg>${num_siret_rattachement_incorrect}</arg>
-<arg>900 848 938 00016</arg>
-<doc>Fails if objects are equal after converting them to real numbers.</doc>
-<status status="PASS" starttime="20230304 22:56:47.690" endtime="20230304 22:56:47.692"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:47.232" endtime="20230304 22:56:47.693"/>
-</kw>
-<kw name="Ajouter le numéro N° IDCC dans le formulaire" library="creation_devis_page_non_passant">
-<arg>${num_iddc}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_num_iddc}</arg>
-<arg>${num_iddc}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:47.700" level="INFO">Typing text '1486' into text field 'xpath://*[@id="edit-num-idcc"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:47.698" endtime="20230304 22:56:47.875"/>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<arg>5s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20230304 22:56:52.878" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20230304 22:56:47.877" endtime="20230304 22:56:52.878"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:47.695" endtime="20230304 22:56:52.879"/>
-</kw>
-<kw name="Renseigner une valeur incorrecte du raison social" library="creation_devis_page_non_passant">
-<arg>${raison_sociale_incorrect}</arg>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${champ_raisonsociale}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:52.881" level="INFO">Clicking element 'xpath://*[@id="edit-raison-sociale"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:52.880" endtime="20230304 22:56:52.944"/>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_raisonsociale}</arg>
-<arg>${raison_sociale_incorrect}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:52.947" level="INFO">Typing text 'FINA' into text field 'xpath://*[@id="edit-raison-sociale"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:52.945" endtime="20230304 22:56:53.059"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:52.879" endtime="20230304 22:56:53.060"/>
-</kw>
-<kw name="Renseigner un code Naf incorrect" library="creation_devis_page_non_passant">
-<arg>${code_NAF_actualise_incorrect}</arg>
-<kw name="Clear Element Text" library="SeleniumLibrary">
-<arg>${champ_codeNaf}</arg>
-<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
-<status status="PASS" starttime="20230304 22:56:53.062" endtime="20230304 22:56:53.127"/>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${champ_codeNaf}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:53.129" level="INFO">Clicking element 'xpath ://*[@id="edit-code-naf"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:53.127" endtime="20230304 22:56:53.181"/>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_codeNaf}</arg>
-<arg>${code_NAF_actualise_incorrect}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:53.185" level="INFO">Typing text '64A' into text field 'xpath ://*[@id="edit-code-naf"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:53.182" endtime="20230304 22:56:53.283"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:53.061" endtime="20230304 22:56:53.285"/>
-</kw>
-<kw name="Renseigner le champ forme juridique par une valeur incorrect" library="creation_devis_page_non_passant">
-<arg>${forme_juridique_incorrect}</arg>
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${champ_formejuridique}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:53.290" level="INFO">Clicking element 'xpath://*[@id="edit-forme-juridique"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:53.288" endtime="20230304 22:56:53.375"/>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_formejuridique}</arg>
-<arg>${forme_juridique_incorrect}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:53.377" level="INFO">Typing text 's.e.s' into text field 'xpath://*[@id="edit-forme-juridique"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:53.376" endtime="20230304 22:56:53.504"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:53.287" endtime="20230304 22:56:53.505"/>
-</kw>
-<kw name="Renseigner la date incorrecte de création de l'entreprise" library="creation_devis_page_non_passant">
-<arg>${date_creation_entreprise_actualise_incorrect}</arg>
-<kw name="Textfield Value Should Be" library="SeleniumLibrary">
-<arg>${champ_datecreation_entreprise}</arg>
-<arg>${date_creation_incorrect}</arg>
-<doc>Verifies text field ``locator`` has exactly text ``expected``.</doc>
-<msg timestamp="20230304 22:56:53.565" level="INFO">Content of text field 'xpath://*[@id="edit-date-creation-entreprise"]' is ''.</msg>
-<status status="PASS" starttime="20230304 22:56:53.507" endtime="20230304 22:56:53.565"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:53.506" endtime="20230304 22:56:53.566"/>
-</kw>
-<kw name="Renseigner une adresse incorrecte de l'entreprise" library="creation_devis_page_non_passant">
-<arg>${adresse_entreprise_incorrect}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_adresse_entreprise}</arg>
-<arg>${adresse_entreprise_incorrect}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:53.573" level="INFO">Typing text 'SKJRID' into text field 'xpath://*[@id="edit-adresse"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:53.570" endtime="20230304 22:56:53.699"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:53.567" endtime="20230304 22:56:53.700"/>
-</kw>
-<kw name="Renseigner un code postal incorrect de l'entreprise" library="creation_devis_page_non_passant">
-<arg>${codepostal_entreprise_incorrect}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_codepostal_entreprise}</arg>
-<arg>${codepostal_entreprise_incorrect}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:53.706" level="INFO">Typing text '75876ds' into text field 'xpath://*[@id="edit-code-postal"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:53.705" endtime="20230304 22:56:53.862"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:53.702" endtime="20230304 22:56:53.862"/>
-</kw>
-<kw name="Renseigner une ville quelconque de l'entreprise" library="creation_devis_page_non_passant">
-<arg>${ville_entreprise_incorrect}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_ville_entreprise}</arg>
-<arg>${ville_entreprise_incorrect}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:53.865" level="INFO">Typing text 'Reims' into text field 'xpath://*[@id="edit-ville"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:53.864" endtime="20230304 22:56:54.024"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:53.863" endtime="20230304 22:56:54.026"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:46.564" endtime="20230304 22:56:54.026"/>
-</kw>
-<kw name="Formulaire Devis-Signataires-Offre RÉGIME D’ADHÉSION non passant" library="creation_devis_non_passant_régime_adhésion">
-<kw name="Renseigner la civilité" library="creation_devis_page_non_passant">
-<arg>${civilite}</arg>
-<kw name="Select From List By Value" library="SeleniumLibrary">
-<arg>${champ_civilite}</arg>
-<arg>${civilite}</arg>
-<doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<msg timestamp="20230304 22:56:54.031" level="INFO">Selecting options from selection list 'xpath://*[@id="dashboardFilter1"]' by value MADAME.</msg>
-<status status="PASS" starttime="20230304 22:56:54.030" endtime="20230304 22:56:54.207"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:54.029" endtime="20230304 22:56:54.209"/>
-</kw>
-<kw name="Ajouter le prenom du signataire" library="creation_devis_page_non_passant">
-<arg>${nom_signataire}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_prenom}</arg>
-<arg>${prenom_signataire}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:54.217" level="INFO">Typing text 'Open' into text field 'xpath://*[@id="edit-nom"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:54.213" endtime="20230304 22:56:54.378"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:54.210" endtime="20230304 22:56:54.379"/>
-</kw>
-<kw name="Ajouter le nom du signataire" library="creation_devis_page_non_passant">
-<arg>${prenom_signataire}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_nom}</arg>
-<arg>${nom_signataire}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:54.381" level="INFO">Typing text 'Test' into text field 'xpath://*[@id="edit-nom"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:54.380" endtime="20230304 22:56:54.501"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:54.379" endtime="20230304 22:56:54.502"/>
-</kw>
-<kw name="Ajouter la fonction signataire" library="creation_devis_page_non_passant">
-<arg>${fonction_signataire}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_fonction}</arg>
-<arg>${fonction_signataire}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:54.508" level="INFO">Typing text 'Auto' into text field 'xpath://*[@id="edit-fonction"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:54.505" endtime="20230304 22:56:54.654"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:54.504" endtime="20230304 22:56:54.656"/>
-</kw>
-<kw name="Vérifier que le numéro téléphone fixe du signatire n'est pas correct" library="creation_devis_page_non_passant">
-<arg>${numtelephonedirecte_signataire_incorrect}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_numtelephonedirecte}</arg>
-<arg>${numtelephonedirecte_signataire_incorrect}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:54.662" level="INFO">Typing text '02 01 01 01' into text field 'xpath://*[@id="edit-telephone-ligne-directe"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:54.660" endtime="20230304 22:56:54.832"/>
-</kw>
-<kw name="Should Not Be Equal As Numbers" library="BuiltIn">
-<arg>${numtelephonedirecte_signataire_incorrect}</arg>
-<arg>02 01 01 01 01</arg>
-<doc>Fails if objects are equal after converting them to real numbers.</doc>
-<status status="PASS" starttime="20230304 22:56:54.833" endtime="20230304 22:56:54.835"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:54.658" endtime="20230304 22:56:54.836"/>
-</kw>
-<kw name="Vérifier que le numéro téléphone direct du signataire n'est pas correct" library="creation_devis_page_non_passant">
-<arg>${numtelephoneportable_signataire_incorrect}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_numtelephoneportable}</arg>
-<arg>${numtelephoneportable_signataire_incorrect}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:54.843" level="INFO">Typing text '06 01 01 01' into text field 'xpath://*[@id="edit-telephone-portable"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:54.841" endtime="20230304 22:56:55.024"/>
-</kw>
-<kw name="Should Not Be Equal As Numbers" library="BuiltIn">
-<arg>${numtelephoneportable_signataire_incorrect}</arg>
-<arg>06 01 01 01 01</arg>
-<doc>Fails if objects are equal after converting them to real numbers.</doc>
-<status status="PASS" starttime="20230304 22:56:55.025" endtime="20230304 22:56:55.026"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:54.838" endtime="20230304 22:56:55.027"/>
-</kw>
-<kw name="Vérifier que l'adresse email signataire n'est pas correct" library="creation_devis_page_non_passant">
-<arg>${adressemail_signataire_incorrect}</arg>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_adressemail_signataire}</arg>
-<arg>${adressemail_signataire_incorrect}</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:55.030" level="INFO">Typing text 'zgh7hyjb2o1secmail.com' into text field 'xpath://*[@id="edit-email"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:55.029" endtime="20230304 22:56:55.210"/>
-</kw>
-<kw name="Should Not Be Equal As Strings" library="BuiltIn">
-<arg>${adressemail_signataire_incorrect}</arg>
-<arg>zgh7hyjb2o@1secmail.com</arg>
-<doc>Fails if objects are equal after converting them to strings.</doc>
-<status status="PASS" starttime="20230304 22:56:55.211" endtime="20230304 22:56:55.212"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:55.028" endtime="20230304 22:56:55.213"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:54.028" endtime="20230304 22:56:55.213"/>
-</kw>
-<kw name="Formulaire Devis-Distributeur-Offre RÉGIME D’ADHÉSION non passant" library="creation_devis_non_passant_régime_adhésion">
-<kw name="Vérifier que le code conseiller n'est pas correct" library="creation_devis_page_non_passant">
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${champ_codeconseiller}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:55.220" level="INFO">Clicking element 'id:edit-code-vendeur'.</msg>
-<status status="PASS" starttime="20230304 22:56:55.217" endtime="20230304 22:56:55.359"/>
-</kw>
-<kw name="Clear Element Text" library="SeleniumLibrary">
-<arg>${champ_codeconseiller}</arg>
-<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
-<status status="PASS" starttime="20230304 22:56:55.360" endtime="20230304 22:56:55.437"/>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_codeconseiller}</arg>
-<arg>QTPM</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:55.439" level="INFO">Typing text 'QTPM' into text field 'id:edit-code-vendeur'.</msg>
-<status status="PASS" starttime="20230304 22:56:55.438" endtime="20230304 22:56:55.567"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:55.215" endtime="20230304 22:56:55.568"/>
-</kw>
-<kw name="Vérifier que le numéro de téléphone fixe rempli n'est pas correct" library="creation_devis_page_non_passant">
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${champ_numtelephonedirecte}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:55.572" level="INFO">Clicking element 'xpath://*[@id="edit-telephone-ligne-directe"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:55.571" endtime="20230304 22:56:55.677"/>
-</kw>
-<kw name="Clear Element Text" library="SeleniumLibrary">
-<arg>${champ_numtelephonedirecte}</arg>
-<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
-<status status="PASS" starttime="20230304 22:56:55.678" endtime="20230304 22:56:55.759"/>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_telephonefixe_distributeur}</arg>
-<arg>02 01 01 01</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:55.762" level="INFO">Typing text '02 01 01 01' into text field 'id:edit-telephone-fixe'.</msg>
-<status status="PASS" starttime="20230304 22:56:55.760" endtime="20230304 22:56:55.940"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:55.569" endtime="20230304 22:56:55.941"/>
-</kw>
-<kw name="Vérifier que le numéro de téléphone portable du distributeur n'est pas correct" library="creation_devis_page_non_passant">
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${champ_numtelephoneportable}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:55.944" level="INFO">Clicking element 'xpath://*[@id="edit-telephone-portable"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:55.943" endtime="20230304 22:56:56.041"/>
-</kw>
-<kw name="Clear Element Text" library="SeleniumLibrary">
-<arg>${champ_numtelephoneportable}</arg>
-<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
-<status status="PASS" starttime="20230304 22:56:56.042" endtime="20230304 22:56:56.091"/>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<arg>${champ_telephoneportable_distributeur}</arg>
-<arg>06 01 01 01</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:56.093" level="INFO">Typing text '06 01 01 01' into text field 'id:edit-telephone-mobile'.</msg>
-<status status="PASS" starttime="20230304 22:56:56.092" endtime="20230304 22:56:56.270"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:55.942" endtime="20230304 22:56:56.271"/>
-</kw>
-<kw name="Cliquer sur le bouton Etape suivante non passant" library="creation_devis_page_non_passant">
-<kw name="Click Element" library="SeleniumLibrary">
-<arg>${btn_etape_suivante}</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230304 22:56:56.276" level="INFO">Clicking element 'xpath://*[@id="sendDevis"]'.</msg>
-<status status="PASS" starttime="20230304 22:56:56.274" endtime="20230304 22:56:56.366"/>
-</kw>
-<kw name="Wait Until Element Contains" library="SeleniumLibrary">
-<arg>${message_erreur_siret_incorrect}</arg>
-<arg>Numéro de siret invalide</arg>
-<doc>Waits until the element ``locator`` contains ``text``.</doc>
-<status status="PASS" starttime="20230304 22:56:56.368" endtime="20230304 22:56:56.413"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:56.273" endtime="20230304 22:56:56.413"/>
-</kw>
-<status status="PASS" starttime="20230304 22:56:55.214" endtime="20230304 22:56:56.414"/>
-</kw>
-<kw name="Fermer le navigateur" library="selenium_utils" type="TEARDOWN">
+<kw name="Fermer le navigateur" library="selenium_utils_PAI_selfcare" type="TEARDOWN">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20230304 22:56:56.417" endtime="20230304 22:56:56.492"/>
+<status status="PASS" starttime="20230307 21:46:46.886" endtime="20230307 21:46:46.960"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Fin de l'exécution de test</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230304 22:56:56.493" endtime="20230304 22:56:56.494"/>
+<status status="PASS" starttime="20230307 21:46:46.961" endtime="20230307 21:46:46.963"/>
 </kw>
-<status status="PASS" starttime="20230304 22:56:56.415" endtime="20230304 22:56:56.495"/>
+<status status="PASS" starttime="20230307 21:46:46.885" endtime="20230307 21:46:46.963"/>
 </kw>
-<status status="PASS" starttime="20230304 22:56:37.026" endtime="20230304 22:56:56.496"/>
+<status status="FAIL" starttime="20230307 21:46:44.490" endtime="20230307 21:46:46.964">Setup failed:
+WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=110.0.5481.177)
+</status>
 </test>
-<status status="PASS" starttime="20230304 22:56:36.190" endtime="20230304 22:56:56.502"/>
+<status status="FAIL" starttime="20230307 21:46:43.982" endtime="20230307 21:46:46.967"/>
 </suite>
-<status status="PASS" starttime="20230304 22:56:36.186" endtime="20230304 22:56:56.513"/>
+<status status="FAIL" starttime="20230307 21:46:43.976" endtime="20230307 21:46:46.982"/>
 </suite>
-<status status="PASS" starttime="20230304 22:56:36.156" endtime="20230304 22:56:56.519"/>
+<status status="FAIL" starttime="20230307 21:46:43.924" endtime="20230307 21:46:46.995"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Eco-testauto">Eco-testauto</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1" name="Tests">Eco-testauto.Tests</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Mon Espace Commercial">Eco-testauto.Tests.Mon Espace Commercial</stat>
+<stat pass="0" fail="1" skip="0" id="s1" name="Eco-testauto">Eco-testauto</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">Eco-testauto.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="PAI selfcare">Eco-testauto.Tests.PAI selfcare</stat>
 </suite>
 </statistics>
 <errors>

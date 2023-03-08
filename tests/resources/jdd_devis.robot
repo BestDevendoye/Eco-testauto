@@ -27,7 +27,10 @@ ${nom_signataire}   Open
 ${fonction_signataire}  Auto
 ${numtelephonedirecte_signataire}   02 01 01 01 01
 ${numtelephoneportable_signataire}  06 01 01 01 01
+${numtelephoneportable}    06 01 01 01 01
 ${adressemail_signataire}   zgh7hyjb2o@1secmail.com
+${adressemail}    zgh7hyjb2o@1secmail.com
+${adressemail_signataire_confirmer}   zgh7hyjb2o@1secmail.com
 
 #Partie distributeur
 ${nom_distributeur_agrica}     GROUPAMA
@@ -45,4 +48,9 @@ ${numtelephonefixe_distributeur}    02 02 02 02 02
 ${numtelephoneportable_distributeur}    06 06 06 06 06
 ${numtelephonefixe_distributeur_groupe_Agrica}    05 01 02 03 04
 ${numtelephoneportable_distributeur_groupe_Agrica}    06 01 02 03 04
+${valeur_message_succes}    Votre demande a été bien prise en compte
+${date_effet_souhaité}    01/04/2023
+${civili}    Mme
+${nom_etude_pers}    Open
+${message_envoyé}    Message envoyé !
 
