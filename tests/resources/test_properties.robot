@@ -4,7 +4,7 @@
 
 ${url}  https://qualif-partenaires.groupagrica.com/
 ${url_selfcare}    https://qualif-www.agrica.loc/agrica-prevoyance/laccord-national-retraite-supplementaire-des-non-cadres/devisenligne
-${browser}  Firefox
+${browser}  Chrome
 #Google Chrome
 #Firefox
 #Edge
